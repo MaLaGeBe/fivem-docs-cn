@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RedM - 你梦寐以求的荒野大镖客2私服联机平台 - RedM中文网</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:ital,wght@0,300;0,400;1,300;1,400"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <meta name="description" content="RedM是荒野大镖客2的私服联机修改框架，允许您在定制的专用服务器上进行游戏。">
+    <meta name="keywords" content="RedM, RedM 主机, RedM 私服, RDR 2 联机, 联机, 修改器, 荒野大镖客, 荒野大镖客2">
+    <link rel="icon" href="/icons/favicon_redm.png">
+    <link href="/css/redm.css" rel="stylesheet">
+</head>
+
+<body class="rdr"><svg style="display:none">
+        <symbol id="logo" viewBox="0 0 323 591"
+            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+            <g transform="matrix(-1,0,0,1,300,0)">
+                <path
+                    d="M84.235,451.272l4.813,11.234l0,16.751l-4.813,23.973l148.814,0l-1.604,-28.787l1.604,-23.171l-148.814,0Z"
+                    style="fill:none;fill-rule:nonzero" />
+                <path d="M7.421,23.973l0.802,-0.803l-0.802,-0.802l0,1.605Z" class="rdr-fill" />
+                <path d="M323,6.119l-92.758,29.991l-4.112,12.036l94.664,-30.693l2.206,-11.334Z" class="rdr-fill" />
+                <path d="M316.382,40.222l1.504,-7.823l-97.171,31.495l-2.808,8.225l98.475,-31.897Z" class="rdr-fill" />
+                <path
+                    d="M214.297,82.551l-8.423,24.675l-11.232,39.119l-6.016,28.386l96.067,14.344l10.73,-41.928l18.953,-96.995l-100.079,32.399Z"
+                    class="rdr-fill" />
+                <path d="M319.089,0l-76.413,0l-9.627,27.784l86.04,-27.784Z" class="rdr-fill" />
+                <path d="M102.686,77.636l-95.767,30.994l-0.301,3.31l0,7.423l95.567,-30.894l0.501,-10.833Z"
+                    class="rdr-fill" />
+                <path d="M101.182,110.035l0.401,-7.323l-94.965,30.694l0,7.322l94.564,-30.693Z" class="rdr-fill" />
+                <path
+                    d="M248.192,376.043l-5.616,-0.601l17.248,-87.466l-92.257,-13.742l-6.518,30.593l-12.034,67.204l-61.571,0l12.835,-174.43l0,-65.6l0.502,-12.437l-94.163,30.392l0,66.001l-2.507,5.617l0.201,5.216l-2.507,39.52l-1.805,8.024l0.201,21.566l0,296.1l304.749,0l0,-19.158l13.638,-200.008l-49.639,3.209l-20.757,0Zm-15.143,127.187l-148.814,0l4.813,-23.973l0,-16.851l-4.813,-11.234l148.814,0l-1.604,23.17l1.604,28.888Z"
+                    class="rdr-fill" />
+                <path
+                    d="M102.887,70.213l1.805,-65.499l-95.968,-3.109l0.301,7.122l-0.802,13.641l0,70.414l-0.602,8.225l95.266,-30.794Z"
+                    class="rdr-fill" />
+            </g>
+        </symbol>
+        <symbol id="snail" viewBox="0 0 64 64">
+            <path
+                d="m29.6 42.8c0 0-4.7-20.8-13.1-20.8-15.1 0-15.5 27.8-5.3 37 3.1 2.8 16.1 2.8 43.5 0 2.9-.3 1.8-3.1-2.3-5-2.7-1.3-15.8-3.7-22.8-11.2"
+                fill="#94d82a" />
+            <g fill="#769e2a">
+                <ellipse cx="27.8" cy="39.8" rx="3.9" ry="6.7" />
+                <ellipse cx="31.5" cy="53.4" rx="2.4" ry="2.7" />
+                <ellipse cx="22.5" cy="48.5" rx="1.8" ry="3.1" />
+                <ellipse cx="20.2" cy="36.4" rx="1.4" ry="2.1" />
+            </g>
+            <path
+                d="m9.6 26.1c0 1.2.4 2.3 1.1 2.9.3.3.7.5 1.1.7.2.1.4.1.6.1 0 0 .3 0 .4 0 .1 0 .2 0 .3 0 .9 0 1.8-.3 2.5-.9.7-.6 1.2-1.6 1.6-2.8.4 1.2.4 2.6-.4 3.8-.8 1.2-2.3 1.9-3.7 1.9-.2 0-.3 0-.5 0-.2 0-.3 0-.5-.1-.4-.1-.7-.2-1.1-.3-.7-.3-1.3-.8-1.6-1.5-.7-1.2-.6-2.8.2-3.8"
+                fill="#3e4347" />
+            <path
+                d="m58.9 42.3c3.4-4.3 3.9-11.2 2-15.4-2.8-6.2-8.3-7.1-8.3-7.1-7.4-11.9-27.8-11.9-34 2.7 5.3 3.1 8.3 11.8 10 16.5 1.6 6.3 4.7 12 9.8 13.5 2.2.6 2.6-1.7 2.6-1.7 1.4 2 4.3 3.4 6.9 2.7 9.7-2.8 11-11.2 11-11.2"
+                fill="#e08828" />
+            <g fill="#94d82a">
+                <path d="m14.5 24.2l-2.6.9-2.5-6.9 2.6-.9z" />
+                <path d="m20.3 26.8l-2.5-1.1 3.1-6.7 2.5 1.2z" />
+                <path
+                    d="m19 12.7c0 4.7-3.8 8.5-8.5 8.5-4.7 0-8.5-3.8-8.5-8.5 0-4.7 3.8-8.5 8.5-8.5 4.7.1 8.5 3.9 8.5 8.5" />
+            </g>
+            <path d="m15.4 13c0 3.7-2.9 6.6-6.4 6.6-3.6 0-6.4-3-6.4-6.6 0-3.7 2.9-6.6 6.4-6.6 3.5 0 6.4 3 6.4 6.6"
+                fill="#fcfcfa" />
+            <path d="m14.6 13c0 2.5-2 4.6-4.4 4.6-2.4 0-4.4-2-4.4-4.6 0-2.5 2-4.6 4.4-4.6 2.5.1 4.4 2.1 4.4 4.6"
+                fill="#3e4347" />
+            <g fill="#93603b">
+                <path
+                    d="m41.1 50.7c-1.9-2.9-3.3-6.2-4-9.6-.7-3.5-.7-7.1.1-10.6.8-3.5 2.5-6.9 5.3-9.3 1.4-1.2 3.1-2 4.9-2.3 1.8-.3 3.6 0 5.2.8-1.7-.4-3.4-.4-5 .1-1.6.5-2.9 1.4-4.1 2.5-1.1 1.1-2.1 2.5-2.8 4-.7 1.5-1.3 3-1.6 4.6-.8 3.2-.9 6.6-.5 9.9.5 3.4 1.3 6.7 2.5 9.9" />
+                <path
+                    d="m58.9 42.3c-.7.9-1.6 1.6-2.6 2.2-1 .6-2.1 1-3.4 1.1-1.2.1-2.5-.3-3.6-1-1.1-.7-1.9-1.6-2.6-2.6-1.4-2-1.9-4.7-1.6-7.1.3-2.4 1.4-4.8 3.1-6.6.9-.9 1.9-1.7 3.2-2.1 1.2-.5 2.6-.6 3.9-.2 1.4.4 2.5 1.4 3.1 2.5.6 1.2.9 2.5.8 3.8-.1 1.3-.5 2.6-1.5 3.5-.9 1-2.5 1.5-3.8.8-1.3-.7-1.9-2.1-1.6-3.4.2-.7.6-1.2 1.2-1.5.3-.1.7-.2 1 0 .3.1.5.3.7.6-1-.9-2 .3-2.1 1.1-.1.9.5 1.9 1.3 2.2.4.2.8.1 1.3 0 .4-.1.8-.4 1.1-.7.6-.7.9-1.7.9-2.7 0-1-.2-2-.7-2.8-.5-.8-1.2-1.4-2.1-1.6-1.8-.5-3.8.4-5.2 1.9-2.8 2.9-3.7 7.9-1.6 11.5 1 1.8 2.7 3.3 4.8 3.4 2.1.1 4.3-1 6-2.3" />
+            </g>
+            <path d="m34.3 12.7c0 5.4-4.4 9.7-9.8 9.7-5.4 0-9.8-4.4-9.8-9.7 0-5.4 4.4-9.7 9.8-9.7 5.4 0 9.8 4.4 9.8 9.7"
+                fill="#94d82a" />
+            <ellipse cx="22.7" cy="13.1" rx="7.4" ry="7.6" fill="#fcfcfa" />
+            <path d="m29.3 13.1c0 2.9-2.3 5.3-5.1 5.3-2.8 0-5.1-2.4-5.1-5.3 0-2.9 2.3-5.3 5.1-5.3 2.8 0 5.1 2.4 5.1 5.3"
+                fill="#3e4347" />
+        </symbol>
+        <symbol id="dl-icon" viewBox="0 0 1792 1302">
+            <path
+                d="M1344 1344q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zm256 0q0-26-19-45t-45-19-45 19-19 45 19 45 45 19 45-19 19-45zm128-224v320q0 40-28 68t-68 28h-1472q-40 0-68-28t-28-68v-320q0-40 28-68t68-28h465l135 136q58 56 136 56t136-56l136-136h464q40 0 68 28t28 68zm-325-569q17 41-14 70l-448 448q-18 19-45 19t-45-19l-448-448q-31-29-14-70 17-39 59-39h256v-448q0-26 19-45t45-19h256q26 0 45 19t19 45v448h256q42 0 59 39z" />
+        </symbol>
+        <symbol id="game-icon" viewBox="0 0 2048 1792">
+            <path
+                d="M896 1088v-128q0-14-9-23t-23-9h-192v-192q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v192h-192q-14 0-23 9t-9 23v128q0 14 9 23t23 9h192v192q0 14 9 23t23 9h128q14 0 23-9t9-23v-192h192q14 0 23-9t9-23zm576 64q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm256-256q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm256 128q0 212-150 362t-362 150q-192 0-338-128h-220q-146 128-338 128-212 0-362-150t-150-362 150-362 362-150h896q212 0 362 150t150 362z" />
+        </symbol>
+        <symbol id="check-icon" viewBox="0 0 1792 1792">
+            <path
+                d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z" />
+        </symbol>
+        <symbol id="times-icon" viewBox="0 0 1792 1792">
+            <path
+                d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z" />
+        </symbol>
+        <symbol id="js" viewBox="0 0 128 128">
+            <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z"></path>
+            <path fill="#323330"
+                d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zm-46.885-37.793h-11.709l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z">
+            </path>
+        </symbol>
+        <symbol id="cs" viewBox="0 0 128 128">
+            <path fill="#9B4F96"
+                d="M115.4 30.7l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z">
+            </path>
+            <path fill="#68217A"
+                d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.7c0-.9-.1-1.9-.6-2.8l-106.6 62z">
+            </path>
+            <path fill="#fff"
+                d="M85.3 76.1c-4.2 7.4-12.2 12.4-21.3 12.4-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1l1.2-6.2h4.9l-1.2 6.1h3.8l1.2-6.1h4.8l-1.2 6.1h2.4v4.7h-3.3l-.9 4.3h4.2v4.7h-5.1l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.4v-4.7h3.3zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z">
+            </path>
+        </symbol>
+        <symbol id="lua" viewBox="0 0 937 937">
+            <path d="m880.4 266.18a456.67 456.67 0 1 1 -158.18 -175.67" stroke="#808080" stroke-dasharray="39.8522"
+                stroke-width="10.597" fill="none" />
+            <circle cy="473.5" cx="473.5" r="353.21" fill="#000080" />
+            <circle cy="327.2" cx="619.81" r="103.45" fill="#fff" />
+            <circle cy="120.29" cx="826.72" r="103.46" fill="#000080" />
+            <g fill="#fff">
+                <path d="m377.82 650.11v-26.067h-114.44v-205.68h-29.564v231.75h144.01" />
+                <path
+                    d="m536.7 650.11v-166.58h-26.385v91.872c0 34.015-17.802 56.267-45.459 56.267-20.981 0-34.333-12.716-34.333-32.743v-115.4h-26.385v125.89c0 27.657 20.663 45.459 53.089 45.459 24.478 0 40.055-8.5832 55.632-30.518v25.75h23.842" />
+                <path
+                    d="m730.5 649.47v-20.027c-2.861 0.63579-4.1326 0.63579-5.7221 0.63579-9.219 0-14.305-4.7684-14.305-13.034v-92.825c0-29.564-21.617-45.459-62.625-45.459-40.373 0-65.169 15.577-66.758 54.042h26.703c2.2253-20.345 14.305-29.564 39.101-29.564 23.842 0 37.194 8.9011 37.194 24.796v6.9937c0 11.126-6.6758 15.895-27.657 18.438-37.512 4.7684-43.234 6.04-53.406 10.173-19.392 7.9474-29.246 22.888-29.246 43.234 0 30.2 20.981 48.002 54.678 48.002 21.299 0 41.962-8.9011 56.585-24.478 2.861 12.716 14.305 21.935 27.339 21.935 5.4042 0 9.5369-0.63579 18.12-2.8611m-46.413-56.903c0 23.842-24.16 39.101-49.91 39.101-20.663 0-32.743-7.3116-32.743-25.432 0-17.484 11.762-25.114 40.055-29.246 27.975-3.8147 33.697-5.0863 42.598-9.219v24.796" />
+            </g>
+        </symbol>
+    </svg>
+    <div class="container">
+        <div class="spacer">
+            <header>
+                <div class="row between-lg between-md">
+                    <div class="col-lg-2 col-md-2 col-sm-11 col-xs-11 flex-center">
+                        <a class="logo" href="/redm/">
+                            <svg class="logo-img">
+                                <use xlink:href="#logo"></use>
+                            </svg>
+                            <div class="logo-title">RedM 中文网</div>
+                        </a>
+                    </div>
+                    <div class="col-xs-1 col-sm-1 hidden-md hidden-lg">
+                        <div class="burger-toggle js-burger-open"><span class="material-icons-outlined">menu</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 end-xs hidden-xs hidden-sm">
+                        <ul class="links">
+                            {{ range .Site.Menus.main -}}
+                            <li><a target="_blank"
+                                    href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}">
+                                    <span class="text">{{- .Name -}}</span></a></li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="burger-links js-burger-menu" style="display:none">
+                <ul class="links">
+                    {{ range .Site.Menus.main -}}
+                    <li><a target="_blank"
+                            href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}">
+                            <span class="text">{{- .Name -}}</span></a></li>
+                    {{ end }}
+                </ul>
+                <div class="close js-burger-close">
+                    <div class="material-icons-outlined">关闭</div>
+                </div>
+            </div>
+            <section class="hero">
+                <div class="seller active">
+                    <div class="row between-lg">
+                        <p class="lead col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                            <strong>RedM</strong>是对 RDR2（荒野大镖客2）<br>的私服联机平台，使您可以在定制的私人服务器上进行<strong>多人联机游戏</strong>，由Cfx.re强力支持。
+                        </p>
+                        <div class="col-lg-4 col-md-5 col-sm-6 hidden-xs end-lg">
+                            <div class="cta">
+                                <button id="client-download" class="js-show-terms">
+                                    <span class="text">下载 客户端</span>
+                                    <span class="description">RedM.exe</span>
+                                </button>
+                                <div class="server">
+                                    <a rel="nofollw" class="btn block inverted"
+                                        href="https://jq.qq.com/?_wv=1027&k=aqD8HYR8" target="_blank"
+                                        title="点击链接加入群聊【RedM中文网官方群】">加入QQ群</a>
+                                </div>
+                                <div class="server">
+                                    <a class="btn block inverted" href="/redm/server-hosting">创建自己的服务器</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="thanks">
+                    <div class="message">
+                        <h1>Thank you — you are <span class="hl">awesome</span>.</h1>
+                        <div class="snaily-happy js-show-seller"></div>
+                    </div>
+                    <p>If the download doesn't start, click <a
+                            href="https://runtime.fivem.net/redm/RedM.exe">here</a>.<br>Like RedM? Consider supporting
+                        us on <a href="https://patreon.com/fivem">Patreon</a>!</p>
+                </div>
+            </section>
+            <div class="row center-xs">
+                <div class="col-lg-12">
+                    <div class="preamb">
+                        <p>在 Cfx.re 框架多年发展的基础上，自2014年以来一直以各种形式存在，RedM是最早开源的RDR2私服联机框架。
+                           <br> 我们一直将社区（包括玩家，服务器所有者和更大的GTA改装社区）放在首位。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="terms">
+                <div class="container">
+                    <div class="spacer">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="terms-wrapper">
+                                    <h1>首先，请阅读我们的服务条款...</h1><iframe src="javascript:void(0)" id="tos-iframe"
+                                        frameborder="0"></iframe>
+                                    <div class="buttons"><button class="btn js-show-seller">我不同意</button>
+                                        <button class="btn primary js-show-thanks">我同意!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="spacer">
+                <div class="row start-xs">
+                    <div class="col-lg-7 col-md-7 col-sm-6">
+                        <p> RedM不隶属于 Rockstar North、Take-Two Interactive 或其他权利人<br> 所使用的任何商标均属于其各自所有者。
+                            <br>RedM中文网所出现的所有商标均属于其所有者。
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-6">
+                        <p class="righty">
+                            RedM is © 2016-2022 by Cfx.re.<br>RedM中文网与Cfx.re无任何直接关系<br>
+                            <a rel="nofollw" title="京ICP备18048441号-1" href="https://beian.miit.gov.cn/"
+                                target="_blank">京ICP备18048441号-1</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/redm.js"></script>
+</body>
+
+</html>
