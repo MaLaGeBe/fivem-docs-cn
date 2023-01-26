@@ -1880,7 +1880,6 @@
           $seller.removeClass('active');
         });
     
-        (_paq || []).push(['trackLink', 'https://fivem.net/download-step-1', 'link']);
       });
     
       $showThanksButton.on('click', function () {
@@ -1890,8 +1889,6 @@
     
           $thanks.addClass('active');
         });
-    
-        (_paq || []).push(['trackLink', 'https://runtime.fivem.net/client/FiveM.exe', 'download']);
     
         setTimeout(function () {
           window.location.href = 'https://runtime.fivem.net/client/FiveM.exe';

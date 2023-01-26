@@ -1880,7 +1880,6 @@ $(function () {
       $seller.removeClass('active');
     });
 
-    (_paq || []).push(['trackLink', 'https://redm.net/download-step-1', 'link']);
   });
 
   $showThanksButton.on('click', function () {
@@ -1891,7 +1890,6 @@ $(function () {
       $thanks.addClass('active');
     });
 
-    (_paq || []).push(['trackLink', 'https://runtime.fivem.net/redm/RedM.exe', 'download']);
 
     setTimeout(function () {
       window.location.href = 'https://runtime.fivem.net/redm/RedM.exe';
