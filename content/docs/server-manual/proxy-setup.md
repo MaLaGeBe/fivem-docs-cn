@@ -1,14 +1,14 @@
 ---
-title: Proxy Setup
+title: 代理设置
 weight: 335
 description: >
-  A basic set of steps to configure a proxy frontend for the Cfx.re server.
+  一组基本步骤，用于为 Cfx.re 服务器端配置前端代理。
 ---
 
-At times, it may be desirable to have a reverse proxy in front of your Cfx.re server instance. This guide will discuss the requirements for such a setup.
+有时，你可能需要在你的 Cfx.re 服务器端设置反向代理。本指南将告诉你相关的设置要求。
 
-## Connection process
-The client->server connection process is as follows:
+## 连接过程 / Connection process
+客户端->服务器端的连接过程如下：
 
 1. Client resolves the _connect endpoint_ from the join interaction. This can be any of the following:
    * The `connectEndPoints` field in the server listing output.
@@ -24,12 +24,12 @@ The client->server connection process is as follows:
 9. Client starts loading the game.
 10. Client potentially opens additional sideband TCP/UDP channels to the server endpoint, potentially using other protocols via the multiplex.
 
-## Proxy types
+## 代理类型
 There are two different reverse proxy types that would make sense in this system, and either can be set up independently from the other.
 
 One is the **connect endpoint**, which can be replaced with any commodity HTTPS reverse proxy/load balancer on port `443`, leading to the actual server's TCP port. The other is the **server endpoint**, which needs a raw TCP/UDP proxy on matching ports leading to the actual server's TCP/UDP port.
 
-### Connect proxy
+### 连接代理
 
 For a connection proxy, a setup like the following could work (based on [a community guide](https://gist.github.com/nathanctech/e648f8312ad0d599fbb3a28db7e4c8f0)):
 
@@ -117,7 +117,7 @@ A working setup of this example would have the following URLs accessible correct
 
 Note that, at this time, `connect` command usage has to use `connect "https://server1.example.com/"` or a join URL, it will not attempt to look up a bare domain as a URL.
 
-### Server proxy
+### 代理服务器
 
 If you also wish to proxy the raw TCP/UDP endpoints, the Nginx 'stream' module can be used as follows (this is not valid in a typical `sites-enabled` file, it has to be directly in a `conf.d` or `nginx.conf`):
 
@@ -139,7 +139,7 @@ stream {
 
 When setting this up, also configure `sv_endpoints` appropriately.
 
-## Advanced setups
+## 高级设置
 This setup can have a few variations as well:
 
 * One could add the load balancer to a Kubernetes cluster as a proper ingress.

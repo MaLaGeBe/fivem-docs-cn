@@ -1,52 +1,50 @@
 ---
-title: Server Commands
+title: 服务器端指令
 weight: 330
 description: >
-  A list of commands to run in the server console.
+  在服务器控制台中运行的指令列表。
 ---
 
 <!-- TODO: format this like client commands? -->
 
-Console commands can be executed either using an RCon tool, directly from the server console interface, a server configuration
-file, the server command line, or (if a resource is allowed by the ACL) the [ExecuteCommand]({{% native "EXECUTE_COMMAND" %}}) function.
+可以使用 RCon 工具直接从服务器控制台界面、服务器配置文件、服务器命令行或使用[ExecuteCommand]({{% native "EXECUTE_COMMAND" %}})函数（如果 ACL 允许该资源）执行控制台命令。
 
-Adding a custom RCon command can be done using the [RegisterCommand]({{% native "REGISTER_COMMAND" %}}) function on the
-server, or the (legacy) `rconCommand` event.
+添加自定义 RCon 命令可以使用服务器上的 [RegisterCommand]({{% native "REGISTER_COMMAND" %}}) 函数或`rconCommand`事件（旧版）来完成。
 
-## Resource commands
+## 脚本资源指令
 
-### `start [resourceName]`
+### `start [脚本资源名称]`
 
-Starts the resource specified in the argument, if it was stopped. It is also possible to specify a category name, such as `start [cars]`.
+如果未运行，则启动参数中指定的资源。也可以指定一个类别名称，例如`start [cars]`。
 
-Example:
+示例：
 
     start lambda-menu
     start [cars]
 
-### `stop [resourceName]`
+### `stop [脚本资源名称]`
 
-Stops the resource specified in the argument, if it was started. As with `start`, one can also specify a category name.
+停止参数中指定的资源（如果它已启动）。与 `start` 一样，也可以指定类别名称。
 
-Example:
+示例：
 
     stop mymode
 
-### `ensure [resourceName]`
+### `ensure [脚本资源名称]`
 
 Restarts the resource specified in the argument, if it was started. If it wasn't, starts the resource specified in the argument.
 
 As with `start` and `stop`, one can also specify a category name.
 
-Example:
+示例：
 
     ensure my-testing-resource
 
-### `restart [resourceName]`
+### `restart [脚本资源名称]`
 
 Restarts the resource specified in the argument, if it was started. Also supports category names.
 
-Example:
+示例：
 
     restart lambda-menu
 
@@ -54,11 +52,11 @@ Example:
 
 Rescans the *resources* folder and loads all resource manifests in them, also making new resources available to start using [start](#start-resourcename "wikilink").
 
-Example:
+示例：
 
     refresh
 
-## Global commands
+## 全局指令
 
 ### `exec [filename]`
 
@@ -66,7 +64,7 @@ Runs the commands specified in the filename, relative to the server data directo
 
 Commonly seen as `FXServer.exe +exec server.cfg`.
 
-Example:
+示例：
 
     exec server_nested.cfg
     exec @vMenu/config/permissions.cfg
@@ -79,11 +77,11 @@ Exits the server, sending a default quit message to all connected players.
 
 Exits the server, also sending the specified reason to all connected players.
 
-Example:
+示例：
 
     quit "Restarting - will be back soon!"
 
-## Management commands
+## 管理指令
 
 ### `status`
 
@@ -91,7 +89,7 @@ Example:
 
 Shows a list of players with their primary identifier, server ID, name, endpoint, and ping.
 
-Example:
+示例：
 
     status
 
@@ -101,7 +99,7 @@ Example:
 
 Kicks the client with the specified server ID (as seen in [status](#status "wikilink")) from the server, for the stated reason.
 
-Example:
+示例：
 
     clientkick 43 You're a superstitious idiot!
 
@@ -111,7 +109,7 @@ Example:
 
 Sends a message in the chat as *console*.
 
-Example:
+示例：
 
     say Hi, everybody!
 
@@ -119,18 +117,18 @@ Example:
 
 Opens or closes the server debug GUI.
 
-## Configuration variables
+## 配置变量
 
 ### `gamename [game]`
 
 Defines the game to run the server for.
 
-Example:
+示例：
 
     FXServer.exe +set gamename rdr3
 
-#### Supported games
-| Name |   Marketing name    |
+#### 支持的游戏
+| 名称 |   正式名称   |
 | ---- | ------------------- |
 | gta4 | LibertyM for GTA:NY |
 | gta5 | FiveM for GTA:Five  |
@@ -148,7 +146,7 @@ Defines which mode of state awareness to use.
 
 Selects a game build for clients to use. This can only be specified at startup, and can not be changed at runtime.
 
-Example:
+示例：
 
     sv_enforceGameBuild h4
     sv_enforceGameBuild mptuner
@@ -197,7 +195,7 @@ be a name, not a list, nor should it contain tags.
 
 Any non-compliant name will be cut off in the server list. <!-- Use our tool to check your name. -->
 
-Example:
+示例：
 
 ```bash
 sets sv_projectName "Citizen Gaming"
@@ -210,7 +208,7 @@ sets sv_projectName "^6Citizen Gaming"
 
 A string variable containing the description of your project. This should be written as a sentence.
 
-Example:
+示例：
 
 ```bash
 sets sv_projectDesc "Your favorite drug deal simulation community!"
@@ -225,7 +223,7 @@ and `sv_projectDesc`.
 
 A string variable that can be used to set the server as "private", making it not possible to join by using the server browser UI (the server connect button will be disabled). In the past, this specific string variable dictated where heartbeats were sent and servers weren't listed if the address didn't point to FiveM's ingress address, this is no longer the case, the server will always post to the default server ingress on startup. In other words, this string variable **cannot be used to de-list a server from the master list.**
 
-Example: 
+示例： 
 
 ```toml
 sv_master1 ""
@@ -263,7 +261,7 @@ In addition, any mode but 'off' will have some additional checks as well:
 ### `con_channelFilters`
 The `con_channelFilters` command will list any active channel filters set to the end user.
 
-A channel is the prefix of a console message, for example: `citizen-server-impl`, this channel will be displayed in brackets in the console followed by a message, i.e.
+A channel is the prefix of a console message, for 示例： `citizen-server-impl`, this channel will be displayed in brackets in the console followed by a message, i.e.
 
 ```
 [citizen-server-impl] Found 44 resources.
@@ -300,14 +298,14 @@ So the following wouldn't show on the console:
 [script:gamemodePrefix-derby]: This is a test.
 ```
 
-Example: `con_addChannelFilter script:gamemodePrefix-* noprint`
+示例： `con_addChannelFilter script:gamemodePrefix-* noprint`
 
 ### `con_removeChannelFilter [filter] [action]`
 The `con_removeChannelFilter` command can be used to remove a channel filter, thus removing any previously applied actions (those applied via [con_addChannelFilter](#con_addChannelFilter)).
 
 You can use [con_channelFilters](#con_channelFilters) to check for any active filters.
 
-Example: `con_removeChannelFilter script:gamemodePrefix-* noprint`
+示例： `con_removeChannelFilter script:gamemodePrefix-* noprint`
 
 ### `sv_filterRequestControlSettleTimer [time]`
 
@@ -330,7 +328,7 @@ If modified files are installed in the FiveM folder, they will be ignored - if u
 
 A console command which loads a specfied icon and sets it as the server icon. The icon needs to be a 96x96 PNG file.
 
-Example:
+示例：
 
 ```toml
 load_server_icon "my-server.png"
@@ -350,7 +348,7 @@ Sets a [Steam Web API key](https://steamcommunity.com/dev/apikey), which is requ
 
 Adds an access control entry to the server's access control list.
 
-Example:
+示例：
 
 ```
 add_ace group.admin command.potato allow
@@ -361,7 +359,7 @@ add_ace identifier.steam:110000112345678 command.apple deny
 
 Sets a principal to inherit from another principal.
 
-Example:
+示例：
 ```toml
 # makes identifier.steam:110000112345678 inherit from group.admin
 add_principal identifier.steam:110000112345678 group.admin
@@ -371,7 +369,7 @@ add_principal identifier.steam:110000112345678 group.admin
 
 Removes a specified ACE from the server's access control list.
 
-Example:
+示例：
 
 ```
 remove_ace identifier.steam:110000112345678 command.apple deny
@@ -381,7 +379,7 @@ remove_ace identifier.steam:110000112345678 command.apple deny
 
 Removes a specified principal inheritance entry.
 
-Example:
+示例：
 ```
 remove_principal identifier.steam:110000112345678 group.admin
 ```
@@ -389,4 +387,4 @@ remove_principal identifier.steam:110000112345678 group.admin
 ### `test_ace [principal] [object]`
 Tests if a principal is allowed or denied access to a given object.
 
-Example: `test_ace group.admin command.adminstuff`
+示例： `test_ace group.admin command.adminstuff`

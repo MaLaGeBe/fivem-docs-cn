@@ -1,51 +1,51 @@
 ---
-title: Setting up a server using txAdmin
+title: 使用 txAdmin 搭建服务器端
 weight: 312
 description: >
-  A step-by-step guide on setting up a txAdmin FXServer.
+  通过txAdmin搭建FXServer服务器端的分步教程。
 ---
 
-## Ultimate easy setup guide
+## 超级简单的搭建指南
 ![pic](/server-setup/header.png)
 ### Windows
-#### Download the server
-1. Go to the [Windows server build listing][windows-artifacts] ('artifacts' listing, as in 'build artifacts').
-2. Download the latest recommended build.<br>
+#### 下载服务器端
+1. [点击查看Windows版服务器端][windows-artifacts]。
+2. 下载最新的推荐版本。<br>
    ![pic](/server-setup/windows-step-2.png)
-3. Open the `server.zip` you just downloaded.<br>
+3. 打开刚刚下载的`server.zip`。<br>
    ![pic](/server-setup/windows-step-3.png)
-4. Extract it somewhere you want to store it. We'll pick `C:\FXServer\server`.<br>
+4. 将其解压缩到你要保存的位置。比如：`C:\FXServer\server`。<br>
    ![pic](/server-setup/windows-step-4a.png)<br>
    ![pic](/server-setup/windows-step-4b.png)
-5. Open the folder you just extracted it to. It should look a little like this:<br>
+5. 打开刚刚解压的文件夹。它应该看起来像这样：<br>
    ![pic](/server-setup/windows-step-5.png)
 
-#### Start the server
-1. Double click `FXServer.exe`.<br>
+#### 启动服务器端
+1. 双击运行`FXServer.exe`。<br>
    ![pic](/server-setup/windows-step2-1.png)
-2. This site should open in your browser. Make sure a PIN is filled, and click `Link Account`.<br>
+2. 该网站应该会在你的浏览器中打开。确保已填写 PIN，然后单击 `Link Account`。<br>
    ![pic](/server-setup/windows-step2-2.png)
-3. Log in to your account on [Cfx.re](https://forum.cfx.re/) in this tab and then click `Yes, Allow`.<br>
+3. 在此页面登录你的[Cfx.re](https://forum.cfx.re/)账号然后单击`Yes, Allow`。<br>
    ![pic](/server-setup/windows-step2-3.png)
-4. Set a password to log in to your server's admin page.<br>
+4. 设置密码以登录服务器的管理页面。<br>
    ![pic](/server-setup/windows-step2-4.png)
-5. Click 'Next'.<br>
+5. 点击“下一步(Next)”。<br>
    ![pic](/server-setup/windows-step2-5.png)
-6. Type a name for your server and click 'Next'.
-7. Select to use a 'Popular Template'.<br>
+6. 为您的服务器输入一个名称，然后单击“下一步(Next)”。
+7. 选择 'Popular Template'。<br>
    ![pic](/server-setup/windows-step2-7.png)
-8. Pick the 'CFX Default' template for now. Other templates may exist, but some will require a database server.<br>
+8. 暂时选择'CFX Default'模板。可能存在其他模板，但有些模板需要数据库服务器。<br>
    ![pic](/server-setup/windows-step2-8.png)
-9. Click 'Save' or select another path.
-10. Go to the 'Recipe Deployer'.<br>
+9. 单击“保存（SAve)”或选择其他路径。
+10. 点击“Go to the Recipe Deployer”。<br>
    ![pic](/server-setup/windows-step2-10.png)
-11. Click 'Next' once you're sure the recipe looks fine. It should be fine the way it comes.<br>
+11. 继续点击“下一步(Next)”。<br>
   ![pic](/server-setup/windows-step2-11.png)
-12. Enter the key you just made on the Keymaster in the 'Before you begin' step and click 'Run Recipe'.<br>
+12. 输入你刚刚在 FiveM Keymaster 上创建的密钥，然后单击'Run Recipe'。<br>
    ![pic](/server-setup/windows-step2-12.png)
-13. If everything's correct, you can click 'Next' again.<br>
+13. 如果输入无误，你可以再次单击“下一步(Next)”。<br>
    ![pic](/server-setup/windows-step2-13.png)
-14. ... and finally, "Save & Run Server", and you're done!<br>
+14. ...最后，单击 "Save & Run Server"，你的服务器端就搭建完成了！<br>
    ![pic](/server-setup/windows-step2-14.png)
 
 

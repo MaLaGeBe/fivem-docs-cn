@@ -1,30 +1,30 @@
 ---
-title: Setting up a server
+title: 搭建一个服务器
 weight: 310
 description: >
-  A step-by-step guide on setting up FXServer.
+  有关搭建 FXServer 的分步教程。
 ---
 
-This page shows you how to run the Cfx.re platform server (also often named 'FXServer') on Windows, Linux, txAdmin and there's even a ZAP-Hosting guide! They can all be found down below under *[Available guides][setting-up-a-server-guides]*.
+此页面向您展示如何在 Windows、Linux、txAdmin 上运行 Cfx.re 平台服务器（通常也称为“FXServer”），甚至还有 ZAP-Hosting 指南！它们都可以在下面的 [*可用指南*][setting-up-a-server-guides] 中找到。
 
-Having trouble running your server? Check the [server issue FAQ][server-issues], use the Discord [#server-talk][fxserver-support] channel, or create a topic in the [Server Discussion][fxserver-support-category] sub-category on the forum.
+运行服务器时遇到问题？查看[服务器问题FAQ][server-issues], 使用Discord[#server-talk][fxserver-support]频道，或在社区的 [Server Discussion][fxserver-support-category]子类别中创建主题。
 
-## Before you begin
-If you haven't done so yet, register a free license key on the [Cfx.re Keymaster](https://keymaster.fivem.net/).
+## 开始之前
+如果您还没有这样做，请在[Cfx.re Keymaster](https://keymaster.fivem.net/)上注册一个免费的许可证密钥。
 
-When asked for an IP, the IP should be the *public* IP on which you're going to *first* use the key. Afterwards, the key can be used for a single server instance on any IP.
+当要求提供 IP 时，该 IP 应该是您将要*首先*使用密钥的*公共* IP。之后，该密钥可用于任何IP上的单个服务器实例。
 
-## Available guides
-- [ZAP-Hosting setup guide][setting-up-a-server-zap]
-- [Ultimate easy setup guide (txAdmin)][setting-up-a-server-txadmin]
-- [Windows setup guide (Vanilla)][setting-up-a-server-vanilla-windows]
-- [Linux setup guide (Vanilla)][setting-up-a-server-vanilla-linux]
+## 可用指南
+- [ZAP-Hosting 搭建指南][setting-up-a-server-zap]
+- [非常简单的搭建指南 (txAdmin)][setting-up-a-server-txadmin]
+- [Windows 搭建指南(教程)][setting-up-a-server-vanilla-windows]
+- [Linux 搭建指南(教程)][setting-up-a-server-vanilla-linux]
 
-What's next?
+接下来是什么？
 ------------
 
-- [Using server commands][server-commands]
-- [Start scripting][scripting-introduction]
+- [使用服务器端指令][server-commands]
+- [开始编写脚本][scripting-introduction]
 
 [server-issues]: /docs/support/server-issues
 [server-commands]: /docs/server-manual/server-commands

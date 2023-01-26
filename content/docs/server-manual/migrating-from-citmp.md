@@ -1,15 +1,15 @@
 ---
-title: Migrating from CitizenMP.Server
+title: 从 CitizenMP.Server 迁移
 weight: 360
 description: >
-  Got some ancient server? This is a guide on migrating.
+  有一些旧版服务器端吗？这是一个迁移指南。
 ---
 
-### Loading Scripts
+### 加载脚本
 
-`require` doesn't exist anymore, any scripts/libraries should be loaded using the `server_script` directive in the resource manifest.
+`require` 已弃用，任何脚本/库都应该使用资源清单中的 `server_script` 指令来加载。
 
-For example:
+示例：
 
 ``` lua
 server_script "my_script.lua" -- load script
@@ -17,13 +17,13 @@ server_script "my_lib.net.dll" -- load a particular assembly into the .net appdo
 server_script "@resource_name/script.lua" -- load a script from another resource
 ```
 
-To load files at runtime, you can use [LOAD\_RESOURCE\_FILE]({{% native "LOAD_RESOURCE_FILE" %}}) (`LoadResourceFile("resource_name", "file_name")`), and for example if it is a Lua file you can use
+要在运行时加载文件，可以使用 [LOAD\_RESOURCE\_FILE]({{% native "LOAD_RESOURCE_FILE" %}}) (`LoadResourceFile("resource_name", "file_name")`)，如果它是一个Lua文件，则可以使用。
 
 ``` lua
 load(...)
 ```
 
-to load the Lua code, like in the following example:
+加载 Lua 代码，示例如下：
 
 ``` lua
 function loadLuaFile(resource, file)
@@ -31,9 +31,9 @@ function loadLuaFile(resource, file)
 end
 ```
 
-### String Splitting
+### 拆分字符串 / String Splitting
 
-`str:Split` does not exist anymore, you should use the proper Lua functions for this. For the commonly copy-pasted `stringsplit` function, this'd be:
+`str:Split`已弃用，你应该为此使用正确的 Lua 函数。参考如下`stringsplit`函数。
 
 ``` lua
 function stringsplit(inputstr, sep)
@@ -49,14 +49,14 @@ function stringsplit(inputstr, sep)
 end
 ```
 
-### Bitwise Operations
+### 按位运算 / Bitwise Operations
 
-Lua 5.3 deprecated `bit32`, and the CfxLua runtime does not enable it. Bitwise operations now work using normal operators (`&`, `|`, ...) like in most other programming languages.
+Lua 5.3 弃用了`bit32`，CfxLua 运行时也不再运行它。与其他大多数编程语言一样，按位运算现在可以使用普通运算符(`&`, `|`, ...)。
 
 ### CLR
 
-NeoLua is no longer in use, so the `clr` namespace does not exist anymore. If you need to run C\# code, use the normal .NET runtime and server exports.
+NeoLua 已弃用，因此 clr 命名空间不再存在。如果需要运行 C\# 代码，请使用普通的 .NET 运行环境进行服务器端导出。
 
 ### TempIDs
 
-If you did any specific bitwise operations assuming during `playerConnecting` the `source` value is above 0x10000, this should not be needed anymore to use functions during `playerConnecting`.
+如果您在执行`playerConnecting`期间进行了任何特定的按位运算，则假设`source`值大于0x10000，那么在`playerConnecting`期间使用函数就不再需要了。
