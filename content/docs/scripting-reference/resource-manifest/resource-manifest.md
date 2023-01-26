@@ -1,5 +1,5 @@
 ---
-title: Resource manifest
+title: 脚本资源清单
 weight: 505
 ---
 

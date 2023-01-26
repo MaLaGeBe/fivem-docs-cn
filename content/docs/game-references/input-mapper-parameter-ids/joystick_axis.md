@@ -3,7 +3,7 @@ title: JOYSTICK_AXIS
 weight: 716
 ---
 
-| Input Parameter    | Input Description    |
+| 映射参数    | Input Description    |
 | ------------------ | -------------------- |
 | IOM_JOYSTICK_AXIS1 | *hardware dependent* |
 | IOM_JOYSTICK_AXIS2 | *hardware dependent* |

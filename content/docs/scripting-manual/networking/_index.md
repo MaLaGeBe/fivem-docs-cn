@@ -1,7 +1,6 @@
 ---
-title: Networking
+title: 联网
 weight: 425
 ---
 
-This section provides some details on dealing with game state across different clients and the server by means of network
-replication.
+本节提供有关通过联网处理不同客户端和服务器端之间游戏状态的一些详细信息。

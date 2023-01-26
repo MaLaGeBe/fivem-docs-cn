@@ -1,13 +1,13 @@
 ---
-title: List of events
+title: 事件列表
 weight: 543
 layout: single
 hidden: true
 ---
 
-**A list of all non-resource-specific events.**
+**所有非特定资源的事件列表。**
 
-Core events
+核心事件
 -----------
 
 - [gameEventTriggered](./gameEventTriggered)

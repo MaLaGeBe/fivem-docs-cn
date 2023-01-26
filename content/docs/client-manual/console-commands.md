@@ -30,7 +30,7 @@ weight: 260
 示例： `bind keyboard F9 "say hi; wait 250; say bye"`
 
 ### rbind \<resource> \<mapper> \<input> \<command>
-同上，但仅当指定的脚本资源在服务端正在使用时才会运行。
+同上，但仅当指定的脚本资源在服务器端正在使用时才会运行。
 
 ### unbind \<mapper> \<input>
 取消绑定所有已绑定到键盘映射输入的指令。
@@ -90,7 +90,7 @@ weight: 260
 2. 在非生产环境更新通道（例如 Beta 或 Latest）上运行客户端。请注意，其他更新渠道可能会不稳定并导致游戏无法启动等问题。
 
 ### cmdlist
-`cmdlist`指令将列出在客户端（或服务端）上注册的所有指令。它还会输出使用`set`、`sets`和`seta`指令设置的变量。
+`cmdlist`指令将列出在客户端（或服务器端）上注册的所有指令。它还会输出使用`set`、`sets`和`seta`指令设置的变量。
 
 ### con_miniconChannels
 你可以使用`con_miniconChannels`指令在屏幕上显示控制台消息，而不需要打开客户端控制台。
@@ -181,7 +181,7 @@ identifier.steam:110000111111112 <- group.moderator
 ### netEventLog
 启用一个工具来显示所有网络流量事件。
 
-此指令将显示所有传入/传出流量事件。它显示了事件的方向（例如服务端 -> 客户端）、事件名称和发送数据的大小（例如 2 bytes）。
+此指令将显示所有传入/传出流量事件。它显示了事件的方向（例如服务器端 -> 客户端）、事件名称和发送数据的大小（例如 2 bytes）。
 
 示例： `neteventlog <true|false>`
 

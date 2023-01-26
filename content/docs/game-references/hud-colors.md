@@ -1,5 +1,5 @@
 ---
-title: HUD colors
+title: HUD颜色
 weight: 765
 ---
 

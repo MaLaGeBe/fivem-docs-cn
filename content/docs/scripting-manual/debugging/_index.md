@@ -1,4 +1,4 @@
 ---
-title: Debugging
+title: 调试
 weight: 470
 ---

@@ -3,7 +3,7 @@ title: PAD_AXIS
 weight: 716
 ---
 
-| Input Parameter   | Input Description |
+| 映射参数   | 映射描述 |
 | ----------------- | ----------------- |
 | IOM_AXIS_LX       | *unknown*         |
 | IOM_AXIS_LY       | *unknown*         |

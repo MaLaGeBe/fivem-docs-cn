@@ -1,5 +1,5 @@
 ---
-title: Migrating from deprecated methods
+title: 从已弃用的方法迁移
 weight: 430
 ---
 

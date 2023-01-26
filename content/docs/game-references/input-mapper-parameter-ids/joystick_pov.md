@@ -3,7 +3,7 @@ title: JOYSTICK_POV
 weight: 716
 ---
 
-| Input Parameter  | Input Description    |
+| 映射参数  | 映射描述    |
 | ---------------- | -------------------- |
 | IOM\_POV1\_UP    | *hardware dependent* |
 | IOM\_POV1\_RIGHT | *hardware dependent* |

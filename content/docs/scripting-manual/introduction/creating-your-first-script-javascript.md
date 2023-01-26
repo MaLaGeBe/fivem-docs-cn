@@ -1,5 +1,5 @@
 ---
-title: Creating your first script in JavaScript
+title: 用 JavaScript 创建你的第一个脚本
 weight: 412
 ---
 

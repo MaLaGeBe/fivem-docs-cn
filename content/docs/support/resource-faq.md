@@ -1,5 +1,5 @@
 ---
-title: Resource FAQ
+title: 脚本资源常见问题解答
 weight: 845
 ---
 

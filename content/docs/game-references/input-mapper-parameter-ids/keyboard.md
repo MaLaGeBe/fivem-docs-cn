@@ -3,7 +3,7 @@ title: KEYBOARD
 weight: 716
 ---
 
-| Input Parameter             | Input Description                                                      |
+| 映射参数             | 映射描述                                                      |
 | --------------------------- | ---------------------------------------------------------------------- |
 | BACK                        | Backspace                                                              |
 | TAB                         | Tab                                                                    |

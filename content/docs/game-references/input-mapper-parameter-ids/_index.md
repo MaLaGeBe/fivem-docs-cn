@@ -1,13 +1,13 @@
 ---
-title: Input mapper/parameter IDs
+title: 键盘映射/参数ID
 weight: 715
 layout: single
 hidden: false
 ---
 
-Descriptions are guessed from known names. Axis inputs have no use in FiveM currently.
+描述是根据已知名称猜测的。 轴输入目前在 FiveM 中没有用处。
 
-| Input Mapper                                     | Description                                                          |
+| 输入映射                                          | 描述                                                                 |
 | ------------------------------------------------ | -------------------------------------------------------------------- |
 | [DIGITALBUTTON_AXIS][digitalbutton_axis]         | Controller button input as axis input                                |
 | [GAME_CONTROLLED][game_controlled]               | Game controlled input                                                |

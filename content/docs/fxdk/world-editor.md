@@ -1,5 +1,5 @@
 ---
-title: World Editor
+title: 世界编辑器
 weight: 920
 ---
 

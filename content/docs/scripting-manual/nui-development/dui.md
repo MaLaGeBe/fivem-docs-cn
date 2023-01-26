@@ -1,5 +1,5 @@
 ---
-title: Direct-rendered UI
+title: 直接渲染的用户界面
 weight: 442
 ---
 

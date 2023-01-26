@@ -1,5 +1,5 @@
 ---
-title: Scripting in Lua
+title: 使用LUA编写脚本
 weight: 421
 languages: ['lua']
 ---

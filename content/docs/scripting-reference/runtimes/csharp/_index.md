@@ -1,9 +1,9 @@
 ---
-title: C# function reference
+title: C# 函数参考
 weight: 507
 hidden: false
 layout: single
 ---
 
-- [Client side functions](/docs/scripting-reference/runtimes/csharp/client-functions)
-- [Server side functions](/docs/scripting-reference/runtimes/csharp/server-functions)
+- [客户端函数](/docs/scripting-reference/runtimes/csharp/client-functions)
+- [服务器端函数](/docs/scripting-reference/runtimes/csharp/server-functions)

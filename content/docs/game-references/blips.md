@@ -1,12 +1,12 @@
 ---
-title: Blips
+title: 地图标点
 weight: 720
 ---
 
 Blips
 -----
 
-A list of all game blips as of build 2545 is shown below.
+自构建2545版本起的所有游戏标点列表如下所示。
 
 <!-- check down for more recent HTML -->
 <!-- _loc1_ = []; -->
@@ -909,111 +909,111 @@ A list of all game blips as of build 2545 is shown below.
 
 ---
 
-Blip colors
+标点颜色
 -----
 
-{{% native_link "SET_BLIP_AS_FRIENDLY" %}} is the native used to toggle friendly and enemy flags.
-Used in decompiled scripts with friendly and enemy peds.
+{{% native_link "SET_BLIP_AS_FRIENDLY" %}} 是用于切换友好和敌对标志的原生函数。
+用于友方和敌方角色的反编译脚本。
 
 <div class="blips blip-colors">
-<div class="blip bcolor"><div class="blip_color" style="background-color: #fefefe" ></div><span><strong>0</strong><br>White</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>1</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #71cb71" ></div><span><strong>2</strong><br>Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>2 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>2 (friendly)</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>3</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>3 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #fefefe" ></div><span><strong>4</strong><br>White</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>4 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>4 (friendly)</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #eec64e" ></div><span><strong>5</strong><br>Yellow</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>5 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>5 (friendly)</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #c25050" ></div><span><strong>6</strong><br>Light Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #9c6eaf" ></div><span><strong>7</strong><br>Violet</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #fe7ac3" ></div><span><strong>8</strong><br>Pink</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #f59d79" ></div><span><strong>9</strong><br>Light Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #b18f83" ></div><span><strong>10</strong><br>Light Brown</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #8dcea7" ></div><span><strong>11</strong><br>Light Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #70a8ae" ></div><span><strong>12</strong><br>Light Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #d3d1e7" ></div><span><strong>13</strong><br>Light Purple</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #8f7e98" ></div><span><strong>14</strong><br>Dark Purple</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #6ac4bf" ></div><span><strong>15</strong><br>Cyan</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #d5c398" ></div><span><strong>16</strong><br>Light Yellow</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #ea8e50" ></div><span><strong>17</strong><br>Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #97cae9" ></div><span><strong>18</strong><br>Light Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #b26287" ></div><span><strong>19</strong><br>Dark Pink</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #8f8d79" ></div><span><strong>20</strong><br>Dark Yellow</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #a6755e" ></div><span><strong>21</strong><br>Dark Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #afa8a8" ></div><span><strong>22</strong><br>Light Gray</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e78d9a" ></div><span><strong>23</strong><br>Light Pink</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #bbd65b" ></div><span><strong>24</strong><br>Lemon Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #0c7b56" ></div><span><strong>25</strong><br>Forest Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #7ac3fe" ></div><span><strong>26</strong><br>Electric Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #ab3ce6" ></div><span><strong>27</strong><br>Bright Purple</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #cda80c" ></div><span><strong>28</strong><br>Dark Yellow</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #4561ab" ></div><span><strong>29</strong><br>Dark Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #29a5b8" ></div><span><strong>30</strong><br>Dark Cyan</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #b89b7b" ></div><span><strong>31</strong><br>Light Brown</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #c8e0fe" ></div><span><strong>32</strong><br>Light Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #f0f096" ></div><span><strong>33</strong><br>Light Yellow</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #ed8ca1" ></div><span><strong>34</strong><br>Light Pink</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #f98a8a" ></div><span><strong>35</strong><br>Light Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #fbeea5" ></div><span><strong>36</strong><br>Beige</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #fefefe" ></div><span><strong>37</strong><br>White</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #2c6db8" ></div><span><strong>38</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #9a9a9a" ></div><span><strong>39</strong><br>Light Gray</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #4c4c4c" ></div><span><strong>40</strong><br>Dark Gray</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #F29D9D" ></div><span><strong>41</strong><br>Pink Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #6CB7D6" ></div><span><strong>42</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #AFEDAE" ></div><span><strong>43</strong><br>Light Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #FFA75F" ></div><span><strong>44</strong><br>Light Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #F1F1F1" ></div><span><strong>45</strong><br>White</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #ECF029" ></div><span><strong>46</strong><br>Gold</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #FF9A18" ></div><span><strong>47</strong><br>Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #F644A5" ></div><span><strong>48</strong><br>Brilliant Rose</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #E03A3A" ></div><span><strong>49</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>49 (friendly)</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #8A6DE3" ></div><span><strong>50</strong><br>Medium Purple</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #FF8B5C" ></div><span><strong>51</strong><br>Salmon</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #416C41" ></div><span><strong>52</strong><br>Dark Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #B3DDF3" ></div><span><strong>53</strong><br>Blizzard Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #3A6479" ></div><span><strong>54</strong><br>Oracle Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #A0A0A0" ></div><span><strong>55</strong><br>Silver</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #847232" ></div><span><strong>56</strong><br>Brown</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>57</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #4B4175" ></div><span><strong>58</strong><br>East Bay</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #E13B3B" ></div><span><strong>59</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #F0CB58" ></div><span><strong>60</strong><br>Yellow Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #CD3F98" ></div><span><strong>61</strong><br>Mulberry Pink</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #CFCFCF" ></div><span><strong>62</strong><br>Alto Gray</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #276A9F" ></div><span><strong>63</strong><br>Jelly Bean Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #D87B1B" ></div><span><strong>64</strong><br>Dark Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #8E8393" ></div><span><strong>65</strong><br>Mamba</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #F0CB57" ></div><span><strong>66</strong><br>Yellow Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>66 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>66 (friendly)</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>67</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>67 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>68</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>68 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #79CD79" ></div><span><strong>69</strong><br>Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>69 (enemy)</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>69 (friendly)</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #EFCA57" ></div><span><strong>70</strong><br>Yellow Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #EFCA57" ></div><span><strong>71</strong><br>Yellow Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #3D3D3D" ></div><span><strong>72</strong><br>Transparent Black</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #EFCA57" ></div><span><strong>73</strong><br>Yellow Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>74</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>75</strong><br>Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #782323" ></div><span><strong>76</strong><br>Deep red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>77</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #3A6479" ></div><span><strong>78</strong><br>Oracle Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>79</strong><br>Transparent Red</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>80</strong><br>Transparent Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #F2A40C" ></div><span><strong>81</strong><br>Orange</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #A4CCAA" ></div><span><strong>82</strong><br>Light Green</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #A854F2" ></div><span><strong>83</strong><br>Purple</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>84</strong><br>Blue</span></div>
-<div class="blip bcolor"><div class="blip_color" style="background-color: #3D3D3D" ></div><span><strong>85</strong><br>Transparent Black</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #fefefe" ></div><span><strong>0</strong><br>白色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>1</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #71cb71" ></div><span><strong>2</strong><br>绿色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>2 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>2 (友方)</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>3</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>3 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #fefefe" ></div><span><strong>4</strong><br>白色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>4 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>4 (友方)</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #eec64e" ></div><span><strong>5</strong><br>黄色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>5 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>5 (友方)</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #c25050" ></div><span><strong>6</strong><br>淡红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #9c6eaf" ></div><span><strong>7</strong><br>紫色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #fe7ac3" ></div><span><strong>8</strong><br>粉色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #f59d79" ></div><span><strong>9</strong><br>浅橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #b18f83" ></div><span><strong>10</strong><br>浅褐色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #8dcea7" ></div><span><strong>11</strong><br>浅绿色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #70a8ae" ></div><span><strong>12</strong><br>浅蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #d3d1e7" ></div><span><strong>13</strong><br>浅紫色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #8f7e98" ></div><span><strong>14</strong><br>深紫色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #6ac4bf" ></div><span><strong>15</strong><br>青色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #d5c398" ></div><span><strong>16</strong><br>浅黄色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #ea8e50" ></div><span><strong>17</strong><br>橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #97cae9" ></div><span><strong>18</strong><br>浅蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #b26287" ></div><span><strong>19</strong><br>深粉色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #8f8d79" ></div><span><strong>20</strong><br>深黄色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #a6755e" ></div><span><strong>21</strong><br>深橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #afa8a8" ></div><span><strong>22</strong><br>浅灰色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e78d9a" ></div><span><strong>23</strong><br>浅粉色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #bbd65b" ></div><span><strong>24</strong><br>柠檬绿</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #0c7b56" ></div><span><strong>25</strong><br>森林绿</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #7ac3fe" ></div><span><strong>26</strong><br>电光蓝</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #ab3ce6" ></div><span><strong>27</strong><br>亮紫色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #cda80c" ></div><span><strong>28</strong><br>深黄色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #4561ab" ></div><span><strong>29</strong><br>深蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #29a5b8" ></div><span><strong>30</strong><br>深青色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #b89b7b" ></div><span><strong>31</strong><br>浅棕色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #c8e0fe" ></div><span><strong>32</strong><br>浅蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #f0f096" ></div><span><strong>33</strong><br>浅黄色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #ed8ca1" ></div><span><strong>34</strong><br>浅粉色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #f98a8a" ></div><span><strong>35</strong><br>浅红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #fbeea5" ></div><span><strong>36</strong><br>浅褐色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #fefefe" ></div><span><strong>37</strong><br>白色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #2c6db8" ></div><span><strong>38</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #9a9a9a" ></div><span><strong>39</strong><br>浅灰色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #4c4c4c" ></div><span><strong>40</strong><br>深灰色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #F29D9D" ></div><span><strong>41</strong><br>粉红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #6CB7D6" ></div><span><strong>42</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #AFEDAE" ></div><span><strong>43</strong><br>浅绿色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #FFA75F" ></div><span><strong>44</strong><br>浅橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #F1F1F1" ></div><span><strong>45</strong><br>白色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #ECF029" ></div><span><strong>46</strong><br>金色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #FF9A18" ></div><span><strong>47</strong><br>橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #F644A5" ></div><span><strong>48</strong><br>玫瑰色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #E03A3A" ></div><span><strong>49</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>49 (友方)</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #8A6DE3" ></div><span><strong>50</strong><br>中紫色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #FF8B5C" ></div><span><strong>51</strong><br>橙红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #416C41" ></div><span><strong>52</strong><br>深绿色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #B3DDF3" ></div><span><strong>53</strong><br>暴雪蓝</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #3A6479" ></div><span><strong>54</strong><br>甲骨文蓝</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #A0A0A0" ></div><span><strong>55</strong><br>银色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #847232" ></div><span><strong>56</strong><br>棕色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>57</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #4B4175" ></div><span><strong>58</strong><br>东湾色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #E13B3B" ></div><span><strong>59</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #F0CB58" ></div><span><strong>60</strong><br>黄橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #CD3F98" ></div><span><strong>61</strong><br>桑葚粉</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #CFCFCF" ></div><span><strong>62</strong><br>中音灰</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #276A9F" ></div><span><strong>63</strong><br>果冻豆蓝</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #D87B1B" ></div><span><strong>64</strong><br>深橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #8E8393" ></div><span><strong>65</strong><br>曼巴色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #F0CB57" ></div><span><strong>66</strong><br>黄橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>66 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>66 (友方)</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>67</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>67 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>68</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>68 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #79CD79" ></div><span><strong>69</strong><br>绿色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>69 (敌对)</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #5db6e5" ></div><span><strong>69 (友方)</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #EFCA57" ></div><span><strong>70</strong><br>黄橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #EFCA57" ></div><span><strong>71</strong><br>黄橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #3D3D3D" ></div><span><strong>72</strong><br>透明黑</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #EFCA57" ></div><span><strong>73</strong><br>黄橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>74</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>75</strong><br>红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #782323" ></div><span><strong>76</strong><br>深红色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>77</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #3A6479" ></div><span><strong>78</strong><br>甲骨文蓝</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #e03232" ></div><span><strong>79</strong><br>透明红</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>80</strong><br>透明蓝</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #F2A40C" ></div><span><strong>81</strong><br>橙色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #A4CCAA" ></div><span><strong>82</strong><br>浅绿色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #A854F2" ></div><span><strong>83</strong><br>紫色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #65B9E7" ></div><span><strong>84</strong><br>蓝色</span></div>
+<div class="blip bcolor"><div class="blip_color" style="background-color: #3D3D3D" ></div><span><strong>85</strong><br>透明黑</span></div>
 </div>

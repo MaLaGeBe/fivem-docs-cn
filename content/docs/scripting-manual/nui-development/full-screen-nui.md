@@ -1,5 +1,5 @@
 ---
-title: Fullscreen NUI
+title: 全屏 NUI
 weight: 441
 ---
 

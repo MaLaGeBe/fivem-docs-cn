@@ -1,9 +1,9 @@
 ---
-title: JavaScript function reference
+title: JavaScript 函数参考
 weight: 510
 hidden: false
 layout: single
 ---
 
-- [Client side functions](/docs/scripting-reference/runtimes/javascript/client-functions)
-- [Server side functions](/docs/scripting-reference/runtimes/javascript/server-functions)
+- [客户端函数](/docs/scripting-reference/runtimes/javascript/client-functions)
+- [服务器端函数](/docs/scripting-reference/runtimes/javascript/server-functions)

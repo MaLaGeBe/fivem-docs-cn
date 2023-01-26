@@ -3,7 +3,7 @@ title: MOUSE_CENTEREDAXIS
 weight: 716
 ---
 
-| Input Parameter             | Input Description |
+| 映射参数             | 映射描述 |
 | --------------------------- | ------------------------------------ |
 | IOM\_AXIS\_X                | Mouse X Axis                         |
 | IOM\_AXIS\_Y                | Mouse Y Axis                         |

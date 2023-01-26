@@ -1,5 +1,5 @@
 ---
-title: Triggering events
+title: 触发事件
 weight: 432
 ---
 

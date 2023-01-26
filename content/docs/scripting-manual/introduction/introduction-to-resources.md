@@ -1,5 +1,5 @@
 ---
-title: Introduction to resources
+title: 脚本资源介绍
 weight: 411
 ---
 

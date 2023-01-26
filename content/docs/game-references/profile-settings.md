@@ -1,5 +1,5 @@
 ---
-title: Profile Settings
+title: 配置文件
 weight: 770
 ---
 

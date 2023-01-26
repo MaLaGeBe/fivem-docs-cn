@@ -3,7 +3,7 @@ title: MOUSE_BUTTON
 weight: 716
 ---
 
-| Input Parameter             | Input Description             |
+| 映射参数             | 映射描述             |
 | --------------------------- | ----------------------------- |
 | MOUSE\_LEFT                 | Mouse Button 0 (Left Click)   |
 | MOUSE\_RIGHT                | Mouse Button 1 (Right Click)  |

@@ -1,9 +1,9 @@
 ---
-title: Client-side functions in Lua
+title: Lua 中的客户端函数
 weight: 514
 ---
 
-## Runtime-specific functions
+## 特定运行环境函数
 - [AddEventHandler](/docs/scripting-reference/runtimes/lua/functions/AddEventHandler)
 - [Citizen.Await](/docs/scripting-reference/runtimes/lua/functions/Citizen.Await)
 - [Citizen.Wait](/docs/scripting-reference/runtimes/lua/functions/Citizen.Wait)
@@ -22,7 +22,7 @@ weight: 514
 - [vector3](/docs/scripting-reference/runtimes/lua/functions/vector3)
 - [vector4](/docs/scripting-reference/runtimes/lua/functions/vector4)
 
-## Native functions
-These links will redirect to the native reference page for each function.
+## 原生函数
+这些链接将重定向到每个函数的原生函数参考页面。
 
 {{% native_list "client" "lua" %}}

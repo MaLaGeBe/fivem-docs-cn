@@ -1,5 +1,5 @@
 ---
-title: Controls
+title: 控制器
 weight: 710
 ---
 

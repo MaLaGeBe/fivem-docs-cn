@@ -1,25 +1,23 @@
 ---
-title: Client functions
+title: 客户端函数
 weight: 502
 ---
 
-Here is a list of some of the functions that you can use specifically in **client** side scripts.
+以下是你可以在**客户端**使用的一些函数列表。
 
-Runtime specific functions
+特定运行环境函数参考
 --------------------------
-Some functions are exclusive to the scripting runtime you're using, and are **not** documented
-in the [FiveM Native Reference List](https://runtime.fivem.net/doc/reference.html). Refer to their docs for more detail.
+一些函数是你正在使用的脚本运行时独有的，并且未记录在[FiveM 原生函数列表](https://runtime.fivem.net/doc/reference.html)中。
+有关详细信息，请参阅以下文档。
 
-- [Client-side functions in Lua](/docs/scripting-reference/runtimes/lua/client-functions)
-- [Client-side functions in JavaScript](/docs/scripting-reference/runtimes/javascript/client-functions)
-- [Client-side functions in C#](/docs/scripting-reference/runtimes/csharp/client-functions)
+- [Lua 中的客户端函数](/docs/scripting-reference/runtimes/lua/client-functions)
+- [JavaScript 中的客户端函数](/docs/scripting-reference/runtimes/javascript/client-functions)
+- [C# 中的客户端函数](/docs/scripting-reference/runtimes/csharp/client-functions)
 
-Native functions
+原生函数
 ----------------
-These are native functions provided by both the Citizen framework (under the [CFX](#cfx) heading), as well as by the
-game. Clicking each link will lead to the FiveM native reference, where you can see syntax per language, a description,
-and examples for using the native.
+这些是 Citizen 框架（在 [CFX](#cfx) 标题下）以及通过游戏提供的原生函数，单击每个链接将跳转到 FiveM 原生函数参考文档，你可以在其中查看每种语言的语法、描述和使用示例。
 
-These natives are usable in **all** runtimes.
+这些原生函数在**所有**运行时间都可使用。
 
 {{% native_list "client" %}}

@@ -1,12 +1,11 @@
 ---
-title: Client-side functions in C#
+title: C# 中的客户端函数
 weight: 508
 layout: single
 ---
 
-There's a few ways to easily tell what functions exist in C# pending manual documentation:
+有几种方法可以轻松判断 C# 待定手册文档中存在哪些函数：
 
-1.  You can use Visual Studio's IntelliSense functionality to view most functions, or use the 'class browser' feature
-    to view the public-exposed API.
-2.  On the client, many APIs are similar to GTA V's ScriptHookV.NET API.
-3.  Natives exist in `CitizenFX.Core.Native.API`, check the [native reference](https://runtime.fivem.net/doc/natives/) to find out more.
+1.  你可以使用 Visual Studio 的 IntelliSense 功能查看大多数函数，或使用`类浏览器(class browser)`功能查看公开的 API。
+2.  在客户端，许多 API 类似于 GTA V 的 ScriptHookV.NET API。
+3.  原生函数存在于`CitizenFX.Core.Native.API`中，查看[原生函数参考](https://runtime.fivem.net/doc/natives/)以了解更多信息。

@@ -1,9 +1,9 @@
 ---
-title: Server-side functions in Lua
+title: Lua 中的服务器端函数
 weight: 515
 ---
 
-## Runtime-specific functions
+## 特定运行环境函数
 - [AddEventHandler](/docs/scripting-reference/runtimes/lua/functions/AddEventHandler)
 - [Citizen.Await](/docs/scripting-reference/runtimes/lua/functions/Citizen.Await)
 - [Citizen.CreateThread](/docs/scripting-reference/runtimes/lua/functions/Citizen.CreateThread)
@@ -18,7 +18,7 @@ weight: 515
 - [TriggerClientEvent](/docs/scripting-reference/runtimes/lua/functions/TriggerClientEvent)
 - [TriggerEvent](/docs/scripting-reference/runtimes/lua/functions/TriggerEvent)
 
-## Native functions
-These links will redirect to the native reference page for each function.
+## 原生函数
+这些链接将重定向到每个函数的原生函数参考页面。
 
 {{% native_list "server" "lua" %}}

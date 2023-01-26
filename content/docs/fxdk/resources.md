@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: 资源
 weight: 910
 ---
 

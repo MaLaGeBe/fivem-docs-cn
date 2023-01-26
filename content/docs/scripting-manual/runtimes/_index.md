@@ -1,13 +1,11 @@
 ---
-title: Scripting runtimes
+title: 脚本运行环境
 weight: 420
 layout: single
 ---
 
-If you're new to scripting, read the introduction first. If you're unsure what language you should choose, remember that
-no matter what you choose, it will get the job done. Pick something you're already comfortable with, or something which
-you think is the most useful to you. There is no best practice. If you're still unsure, Lua is a safe choice.
+如果你是个新手，请先阅读介绍。如果你不确定应该选择哪种语言，请记住这一点，无论你选择什么语言，它都能完成你想要的效果。选择你所熟悉的，或者你认为对你最好用的。如果你仍然不确定，Lua是个不错的选择。
 
-- [Scripting in Lua](/docs/scripting-manual/runtimes/lua)
-- [Scripting in JavaScript](/docs/scripting-manual/runtimes/javascript)
-- [Scripting in C#](/docs/scripting-manual/runtimes/csharp)
+- [使用Lua编写脚本](/docs/scripting-manual/runtimes/lua)
+- [使用JavaScript编写脚本](/docs/scripting-manual/runtimes/javascript)
+- [使用C#编写脚本](/docs/scripting-manual/runtimes/csharp)

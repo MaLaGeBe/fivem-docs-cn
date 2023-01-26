@@ -1,5 +1,5 @@
 ---
-title: Checkpoints
+title: 检查点
 weight: 730
 ---
 

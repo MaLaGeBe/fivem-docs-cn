@@ -1,5 +1,5 @@
 ---
-title: Loading screens
+title: 载入画面
 weight: 444
 ---
 

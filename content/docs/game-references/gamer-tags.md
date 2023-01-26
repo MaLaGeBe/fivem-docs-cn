@@ -1,5 +1,5 @@
 ---
-title: Gamer tags
+title: 玩家标签
 weight: 760
 ---
 

@@ -1,49 +1,40 @@
 ---
-title: Client issues
+title: 客户端问题手册
 weight: 830
 ---
 
-Getting game crashes? Can't launch FiveM? Or maybe running into some more
-obscure issue? Find the most common issues here.
+遇到游戏崩溃？无法运行FiveM？或者可能遇到一些更含糊的问题？在此处查找最常见的问题。
 
-I crash when playing on a server
+我在服务器上玩的时候游戏崩溃了
 --------------------------------
-Crashes are fairly often related to a server-specific issue. To make sure your crash isn't related to a specific
-server, it is advised to join the [FiveM.net testing server][testing-server]. If that server works without your issue, we
-recommend you to contact the server owners of the server where you're experiencing crashes on. Otherwise, read on.
+崩溃通常与服务器特定问题有关。为了确保崩溃与特定服务器无关，建议加入[FiveM.net 测试服务器][testing-server]进行测试。如果这个服务器可以正常运行，我们建议你联系您遇到崩溃的服务器服主。否则，请继续阅读下面的内容。
 
-I've been banned on a server
+我被服务器封禁了
 ----------------------------
-FiveM is not responsible for what you do on servers, or what server admins do to you. If you believe you've been
-falsely banned from a server, contact the server owners. FiveM can not and will not provide support for this matter.
+FiveM不对你在服务器上所做的事情或服务器管理员对你所做的事情负责。如果你认为自己被误封了，请联系服主。FiveM不能也不会为此事提供支持。
 
-I've been globally banned from FiveM
+我被所有FiveM服务器封禁了
 ------------------------------------
-Please see [the following article](/docs/support/ban-faq).
+请参阅[本篇文章](/docs/support/ban-faq)。
 
-Could not find game executable
+找不到游戏可执行文件
 ------------------------------
 <!-- https://media.discordapp.net/attachments/455024366091108352/479263072276578324/unknown.png -->
 <!--<img src="/static/could-not-find-game-exec-error.png">-->
-Locate the `CitizenFX.ini` file within your [FiveM Application Data][where-is-fivem-installed] and make sure it is
-pointing to the correct path. Open the file with a text editor like Notepad and edit the path to your GTA V installation
-if necessary.
+在你的[FiveM Application Data][where-is-fivem-installed]文件夹中找到`CitizenFX.ini`文件并确保它指向正确的路径。使用记事本等文本编辑器打开该文件，并在必要时编辑 GTA V 安装路径。
 
-FiveM is already installed
+FiveM已经安装
 --------------------------
 <!-- https://media.discordapp.net/attachments/455024366091108352/479267390836834306/unknown.png -->
-After you installed FiveM, you don't need to use the same FiveM.exe file anymore. Use the shortcut from your Windows
-start menu. Press the Start button on your taskbar and look for FiveM there.
+安装FiveM后，不需再使用同一个FiveM.exe文件。从 Windows 开始菜单使用快捷方式运行。按下任务栏上的“开始”按钮，然后在这里查找FiveM。
 
-If you uninstalled FiveM by deleting the shortcut, you might have to [uninstall][uninstalling] FiveM properly.
+如果您通过删除快捷方式卸载FiveM，则可能需要正确[卸载FiveM][uninstalling]。
 
-Game cache outdated
+游戏缓存已过时(Game cache outdated)
 -------------------
 <!-- https://media.discordapp.net/attachments/455024366091108352/479268603510652946/unknown.png -->
 <!-- https://vgy.me/JJJzfI.png -->
-Press `Yes` if the dialog asks `Do you wish to continue?`. If you get an error like `DLC files are missing`, make sure
-your game is up to date by following the instructions in the dialog. Also, make sure your `CitizenFX.ini` points to
-the correct GTA V installation. You can find that file within your [FiveM application data][where-is-fivem-installed].
+如果对话框询问`你要继续吗？(Do you wish to continue?)`，请按`是(Yes)`。如果你收到类似`DLC文件丢失(DLC files are missing)`的错误，请按照对话框中的提示确保你的游戏版本是最新的。此外，请确保您的`CitizenFX.ini`指向正确的GTA5安装目录。可以在[FiveM application data][where-is-fivem-installed]目录中找到这个文件。
 
 Error generating ROS entitlement token
 --------------------------------------

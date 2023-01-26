@@ -1,5 +1,5 @@
 ---
-title: Scripting in JavaScript
+title: 使用JavaScript编写脚本
 weight: 422
 languages: ['js']
 ---

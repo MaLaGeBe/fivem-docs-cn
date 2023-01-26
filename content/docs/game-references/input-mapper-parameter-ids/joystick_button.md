@@ -3,7 +3,7 @@ title: JOYSTICK_BUTTON
 weight: 716
 ---
 
-| Input Parameter         | Input Description    |
+| 映射参数         | 映射描述    |
 | ----------------------- | -------------------- |
 | IOM\_JOYSTICK\_BUTTON1  | *hardware dependent* |
 | IOM\_JOYSTICK\_BUTTON2  | *hardware dependent* |

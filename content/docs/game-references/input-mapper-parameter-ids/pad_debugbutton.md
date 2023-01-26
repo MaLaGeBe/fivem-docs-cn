@@ -3,7 +3,7 @@ title: PAD_DEBUGBUTTON
 weight: 716
 ---
 
-| Input Parameter | Input Description     |
+| 映射参数 | 映射描述     |
 | --------------- | --------------------- |
 | L1              | Left Shoulder Button  |
 | R1              | Right Shoulder Button |

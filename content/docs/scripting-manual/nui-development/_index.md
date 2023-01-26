@@ -1,5 +1,5 @@
 ---
-title: User interfaces with NUI
+title: 使用 NUI 用户界面
 weight: 440
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Script runtimes
+title: 运行环境
 weight: 930
 description: >
-  Describes support for the fxOM script runtimes.
+  介绍对fxOM运行环境的支持。
 ---
 
 CitizenFX supports pluggable scripting runtimes. These runtimes are implemented as CitizenFX components (`code/components/`) implementing `fxOM` (CitizenFX Object Model) interfaces defined in `fxScripting.idl`.

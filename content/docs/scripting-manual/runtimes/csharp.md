@@ -1,5 +1,5 @@
 ---
-title: Scripting in C#
+title: 使用C#编写脚本
 weight: 423
 languages: ['cs']
 ---

@@ -1,57 +1,56 @@
 ---
-title: Text formatting
+title: 文本格式
 weight: 780
 ---
 
-Text labels displayed in the game UI can be formatted using classical Rockstar North-style `~` formatting tags, which are
-detailed below.
+游戏 UI 中显示的文本标签可以使用经典R星风格的`~`格式化标签进行格式化，详情如下。
 
-## Rockstar formatting codes
+## R星格式化代码
 
-Rockstar formatting codes are typically found between two tildes (`~`), such as in the following examples:
+R星格式代码通常位于两个波浪号 (`~`) 之间，示例如下：
 
 ```
 [MY_LABEL]
-Demolish the ~r~enemy.
+摧毁~r~敌人。
 
 [MY_HELP_LABEL]
-Press ~INPUT_CONTEXT~ when near the ~r~enemies.
+靠近~r~敌人~w~时按~INPUT_CONTEXT~。
 ```
 
-### Color codes
+### 颜色代码
 
 <table>
 <thead>
 <tr>
-<th style="width: 100px">Special</th>
-<th>Label</th>
-<th>Description</th>
-<th>Example</th>
+<th style="width: 100px">null</th>
+<th>标签</th>
+<th>描述</th>
+<th>示例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>&nbsp;</td>
 <td><code>~HUD_COLOUR_...~</code></td>
-<td>References an existing <a href="../hud-colors">HUD color</a>.</td>
+<td>引用现有的 <a href="../hud-colors">HUD 颜色</a>。</td>
 <td><code>Find the ~HUD_COLOUR_FREEMODE~freemode ped!</code></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
 <td><code>~HC_...~</code></td>
-<td>An alias for ~HUD_COLOUR</td>
+<td>~HUD_COLOUR 的别名</td>
 <td><code>Find the ~HC_FREEMODE~freemode ped!</code></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
 <td><code>~HC_[number]~</code></td>
-<td>Specifies a HUD color by index.</td>
+<td>按索引ID指定 HUD 颜色。</td>
 <td><code>Get to ~HC_13~Davis.</code></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
 <td><code>~s~</code></td>
-<td>Resets the color to the default for the current context.</td>
+<td>将颜色重置为当前上下文的默认值。</td>
 <td><code>After killing the ~r~enemies~s~, you win!</code></td>
 </tr>
 <tr>
@@ -300,163 +299,163 @@ Press ~INPUT_CONTEXT~ when near the ~r~enemies.
 </tr>
 <tr>
 <td><code>~PAD_UP~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DOWN~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LEFT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RIGHT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_A~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_B~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_X~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_Y~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_START~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_BACK~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LB~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RB~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_UP~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_DOWN~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_LEFT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_RIGHT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_NONE~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_ALL~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_UPDOWN~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_DPAD_LEFTRIGHT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_UP~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_DOWN~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_LEFT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_RIGHT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_NONE~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_ALL~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_UPDOWN~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_LEFTRIGHT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_LSTICK_ROTATE~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_UP~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_DOWN~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_LEFT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_RIGHT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_NONE~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_ALL~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_UPDOWN~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_LEFTRIGHT~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr><tr>
 <td><code>~PAD_RSTICK_ROTATE~</code></td>
-<td>In supported contexts, shows a gamepad button or other control.</td>
+<td>在支持的环境中，显示游戏手柄按钮或其他控件。</td>
 <td></td>
 </tr>
 </tbody>

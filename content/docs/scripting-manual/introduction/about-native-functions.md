@@ -1,10 +1,10 @@
 ---
-title: About native functions
+title: 关于原生函数
 weight: 413
 ---
 
-This article is under development.
-The full list of native functions can be found [here][natives-doc].
+本文正在开发中。
+可以在[此处][natives-doc]找到原生函数的完整列表。
 
 
 <!-- TODO:

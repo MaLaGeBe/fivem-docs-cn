@@ -1,40 +1,40 @@
 ---
-title: Client FAQ
+title: 客户端常见问题解答
 weight: 810
 ---
 
-Will FiveM run on Xbox or Playstation?
+FiveM 可以在 Xbox 或 Playstation 上运行吗？
 -------------------------------------
 
-No. FiveM is developed exclusively for the PC version of GTA V. There are no plans to support consoles.
+不可以。FiveM 专为 PC 版 GTA V 开发。没有计划支持次时代游戏机。
 
-Will FiveM run on Linux?
+FiveM 可以在 Linux 上运行吗？
 ------------------------
 
-The FiveM client cannot run on Linux due to [no support](https://github.com/doitsujin/dxvk/issues/899) for shared resources in DXVK. You can run a FiveM server on Linux.
+由于[不支持](https://github.com/doitsujin/dxvk/issues/899)DXVK中的共享资源，FiveM 客户端无法在 Linux 上运行。
 
-Where is FiveM installed?
+FiveM 安装在哪里？
 -------------------------
 
-That depends on how you installed it in the first place.
+这首先取决于你如何安装它。
 
-- Did you run FiveM.exe in an empty folder? Then that's where FiveM is installed.
-- Otherwise, FiveM installs in `%localappdata%`:
-    - Press `WinKey+R` on your keyboard
-    - Type `%localappdata%/FiveM` in the dialog that opens
-    - Hit Enter
+- 你是否在一个空文件夹中运行了 FiveM.exe？ 这就是安装 FiveM 的地方。
+- 否则，FiveM 安装在`%localappdata%`中：
+    - 按键盘上的 `WinKey+R`
+    - 在打开的对话框中键入 `%localappdata%/FiveM`
+    - 按回车键
 
-More about installing FiveM [here][installing-fivem].
+更多关于安装FiveM的信息[点此查看][installing-fivem].
 
-Will I get banned from GTA:Online for playing FiveM?
+我会因为玩 FiveM 被 GTA:Online 封号吗？
 ---------------------------------------
 
 Nope! [As mentioned on fivem.net](https://fivem.net/#no-bans), FiveM does not interact with the Rockstar Online Services other than to validate your game copy the first time you launch it. This validation emulates the game's interaction, and can not be detected by Rockstar. It also doesn't modify your game files at all, even when downloading server assets, so you don't have to do anything to move between FiveM or GTA:O.
 
-I'm running into issues, what can I do?
+我遇到了一些问题，我该怎么办？
 ---------------------------------------
 
-It's never fun to run into problems. Read the [client issues manual][client-issues] for help.
+遇到问题从来都不是一件开心的事情。阅读[客户端问题手册][client-issues]以寻求帮助。
 
 [installing-fivem]: /docs/client-manual/installing-fivem
 [client-issues]: /docs/support/client-issues

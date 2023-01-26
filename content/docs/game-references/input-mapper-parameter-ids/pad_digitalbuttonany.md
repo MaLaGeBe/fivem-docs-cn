@@ -3,7 +3,7 @@ title: PAD_DIGITALBUTTONANY
 weight: 716
 ---
 
-| Input Parameter | Input Description                                                               |
+| 映射参数 | 映射描述                                                               |
 | --------------- | ------------------------------------------------------------------------------- |
 | L1\_INDEX       | Left Shoulder Button                                                            |
 | R1\_INDEX       | Right Shoulder Button                                                           |

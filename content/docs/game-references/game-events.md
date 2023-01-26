@@ -1,5 +1,5 @@
 ---
-title: Game events
+title: 游戏事件
 weight: 750
 ---
 
