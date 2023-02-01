@@ -1,7 +1,7 @@
-FiveM Documentation
+FiveM & RedM 中文网 中文文档
 ===================
 
-Source of [docs.fivem.net][docs].
+Source of [fivem.net.cn][docs].
 
 Development
 -----------
