@@ -52,9 +52,9 @@ url = "/"
 weight = 10
 
 [[menu.main]]
-name = "社区"
-url = "https://forum.cfx.re"
-weight = 30
+name = "中文社区"
+url = "https://forum.fivem.net.cn"
+weight = 20
 
 [[menu.main]]
 name = "服务器"

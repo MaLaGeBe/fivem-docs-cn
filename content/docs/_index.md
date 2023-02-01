@@ -4,7 +4,7 @@ layout: single
 linkTitle: "中文文档"
 menu:
   main:
-    weight: 20
+    weight: 30
 ---
 
 欢迎浏览 [FiveM][home] 联机修改框架中文文档。点击以下链接浏览您所需要的信息。
